@@ -12,8 +12,8 @@ search=st.text_input("First name")
 
 for ani in ani_list:
     if search in ani:
-        img_idx = ani_list.index(search)
+        img_idx = ani_list.index(ani)
 
-if title == '':
-    st.write(img_list[img_idx])
+if search != '': # 초기상태를 이미지없이 실행
+    st.image(img_list[img_idx])
 

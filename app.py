@@ -62,7 +62,7 @@ for i in range(int(st.number_input("Num:"))):
 if st.sidebar.selectbox("I:",["f"]) == "f":
     b()
 
-my_slider_val2 = st.sidebar.slider("Quinn Mallory", 1, 88)
+my_slider_val2 = st.sidebar.slider("Quinn Mallory", 1, 100)
 st.sidebar.write(my_slider_val2)
 
 # my_slider_val = st.slider("Quinn Mallory", 1, 88)
